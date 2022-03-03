@@ -1,0 +1,19 @@
+{
+  "name": "@gentsestudentenraad/npm-example",
+  "version": "1.0.0",
+  "description": "An example on how to publish a TypeScript package to Github using NPM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GentseStudentenraad/npm-example.git"
+  },
+  "author": "Jens Pots",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/GentseStudentenraad/npm-example/issues"
+  },
+  "homepage": "https://github.com/GentseStudentenraad/npm-example#readme"
+}
