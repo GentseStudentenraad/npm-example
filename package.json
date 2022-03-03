@@ -1,6 +1,6 @@
 {
   "name": "@gentsestudentenraad/npm-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An example on how to publish a TypeScript package to Github using NPM.",
   "main": "dist/main.js",
   "scripts": {
