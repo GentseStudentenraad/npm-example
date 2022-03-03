@@ -4,6 +4,7 @@
 name: Publish to Github Packages
 
 on:
+  workflow_dispatch:
   release:
     types: [created]
 
@@ -16,7 +17,7 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - run: npm build
+      - run: npm test
 
   publish-gpr:
     needs: build
