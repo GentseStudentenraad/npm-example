@@ -2,10 +2,10 @@
   "name": "@gentsestudentenraad/npm-example",
   "version": "1.0.0",
   "description": "An example on how to publish a TypeScript package to Github using NPM.",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Warning: no tests specified. Continuing.\" && exit 0",
-    "prepare": "echo \"Warning: no preparations specified. Continuing.\" && exit 0"
+    "prepare": "tsc"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GentseStudentenraad/npm-example/issues"
   },
-  "homepage": "https://github.com/GentseStudentenraad/npm-example#readme"
+  "homepage": "https://github.com/GentseStudentenraad/npm-example#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
 }
